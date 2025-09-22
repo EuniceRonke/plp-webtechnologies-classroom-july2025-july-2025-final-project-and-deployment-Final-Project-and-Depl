@@ -48,6 +48,6 @@ Responsive layout for mobile, tablet, and desktop
 
 🚀 Deployment
 
-The site is deployed using GitHub Pages / Netlify.
+The site is deployed using Netlify.
 
-👉 Live Demo: [Insert your live site URL here]
+👉 Live Deploy Website: https://joyful-macaron-9b5c32.netlify.app/
