@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+  <div class="header-container">
+    <a class="brand logo" href="index.html">SkillUp</a>
+
+    <div class="header-right">
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle theme">🌙</button>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="courses.html" class="nav-link">Courses</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am passionate about creating efficient digital solutions, 
+        organizing workflows, and bringing ideas to life with interactive web projects. 
+        This portfolio showcases my skills in HTML, CSS, and JavaScript.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Interactive Counter</h3>
+        <p id="counterValue">0</p>
+        <button id="increaseBtn">Increase</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+
+      <div class="project">
+        <h3>FAQ Section</h3>
+        <div class="faq">
+          <h4 class="faq-question">What can I do?</h4>
+          <p class="faq-answer">I can assist with admin tasks, data entry, and build interactive web solutions.</p>
+        </div>
+        <div class="faq">
+          <h4 class="faq-question">What am I learning?</h4>
+          <p class="faq-answer">I’m expanding into Web Development and improving my technical skills.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="functions">
+  <h2>JS Functions Output</h2>
+
+  <label>
+    Enter your name:
+    <input type="text" id="userName" placeholder="Your name">
+  </label>
+  <label>
+    Enter a number:
+    <input type="number" id="userNumber" placeholder="Number">
+  </label>
+  <button id="runFunctionsBtn">Run Functions</button>
+
+  <div id="functionsOutput"></div>
+</section>
+
+    <!-- Animations Section -->
+    <section id="animations">
+      <h2>CSS & JS Animations</h2>
+      <button id="animateBoxBtn">Animate Box</button>
+      <div id="box"></div>
+
+      <div class="card" id="flipCard">
+        <div class="card-inner">
+          <div class="card-front">Front</div>
+          <div class="card-back">Back</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+<!-- Contact Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <h3>Contact Information</h3>
+    <p>Email: <a href="mailto:eunicefagbemide@gmail.com">eunicefagbemide@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/EuniceRonke" target="_blank">github.com/EuniceRonke</a></p>
+    <p>Phone: <a href="tel:+2348060410339">+2348060410339</a></p>
+  </div>
+</div>
+
+  <footer>
+    <p>&copy; 2025 Eunice. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
